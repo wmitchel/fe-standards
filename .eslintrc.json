@@ -1,0 +1,12 @@
+{
+  "extends": ["eslint:recommended", "prettier"],
+  "ignorePatterns": ["*.config.js", "dist/*.js"],
+  "parser": "babel-eslint",
+  "rules": {
+    "quotes": ["error", "single"],
+    "arrow-parens": ["error", "always"]
+  },
+  "env": {
+    "browser": true
+  }
+}

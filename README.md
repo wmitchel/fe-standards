@@ -1,2 +1,2 @@
 # fe-standards
-Examples of automated standards enforcement in front-end solutions.
+A minimal example of automated standards enforcement in front-end solutions.

@@ -1,0 +1,29 @@
+// @define banner
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  &--dark {
+    background-color: black;
+  }
+
+  &__heading {
+    font-size: 4rem;
+    color: green;
+
+    .banner--dark & {
+      color: white;
+    }
+  }
+
+  &__button {
+    border-radius: 4px;
+    padding: 0.5rem;
+    background-color: beige;
+  }
+}
